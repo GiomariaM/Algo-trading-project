@@ -37,18 +37,6 @@ Performance metrics include:
 
 The notebook `report.pdf` provides a detailed explanation of the methodology, formulas, and results analysis.
 
-## Results Summary
-
-| Strategy | Sharpe (Test) | Sortino (Test) | Max Drawdown (Test) | Calmar (Test) |
-|-----------|---------------|----------------|----------------------|----------------|
-| Buy & Hold | 0.66 | 0.83 | -0.71 | 0.68 |
-| Trend-Following | 0.81 | 0.59 | -0.39 | 0.88 |
-| Technical Analysis | 0.62 | 0.29 | -0.37 | 0.67 |
-| LSTM | -0.20 | -0.32 | -0.78 | -0.19 |
-
-Overall, **Buy-and-Hold** proved the most stable and profitable strategy in this market period.  
-The **LSTM** strategy showed strong overfitting — excellent training performance but poor generalization on the test set.
-
 ## Files
 
 | File | Description |
